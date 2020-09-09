@@ -1,0 +1,57 @@
+<!--
+  Navigation buttons at the bottom of the post.
+
+  v2.1
+  https://github.com/cotes2020/jekyll-theme-chirpy
+  https://halfapx.com/previous-next-links-within-jekyll-collections/
+  © 2020 Cotes Chung
+  MIT License
+-->
+
+
+
+{% assign  document = site.posts | sort: "date" | reversed | where:"lang", page.lang %}
+{% for links in document %}
+    {% if links.title == page.title %}
+
+        {% unless forloop.first %}
+            {% assign prevurl = prev.url %}
+
+            {% assign prevtitle = prev.title %}
+        {% endunless %}
+
+        {% unless forloop.last %}
+            {% assign next = document[forloop.index] %}
+            {% assign nexturl = next.url %}
+            {% assign nexttitle = next.title %}
+        {% endunless %}
+
+    {% endif %}
+
+    {% assign prev = links %}
+{% endfor %}
+
+
+
+
+<div class="post-navigation d-flex justify-content-between">
+  {% if prevurl %}
+      <a href="{{prevurl}}" class="btn btn-outline-primary">
+        <p>{{prevtitle}}</p>
+    </a>
+    {% else %}
+    <span class="btn btn-outline-primary disabled">
+      <p>-</p>
+    </span>
+  {% endif %}
+
+  {% if nexturl %}
+      <a href="{{ nexturl }}" class="btn btn-outline-primary">
+        <p>{{nexttitle}}</p>
+      </a>
+    {% else %}
+    <span class="btn btn-outline-primary disabled">
+      <p>-</p>
+    </span>
+  {% endif %}
+</div>

@@ -1,0 +1,14 @@
+{% comment %}
+  The trending tags list
+  v2.0
+  https://github.com/cotes2020/jekyll-theme-chirpy
+  © 2019 Cotes Chung
+  MIT Licensed
+{% endcomment %}
+
+{% assign mytags = site.posts | where: "lang", page.lang %}
+{% for item in mytags %}
+  {% for tag in item.tags %}
+  <a class="post-tag" href="/{{page.lang}}/tags#{{tag | sluggify}}">{{tag}}</a>
+  {% endfor %}
+{% endfor %}

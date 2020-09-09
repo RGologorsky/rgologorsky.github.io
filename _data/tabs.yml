@@ -1,0 +1,46 @@
+#  The tab data.
+#  v2.1
+#  https://github.com/cotes2020/jekyll-theme-chirpy
+#  © 2020 Cotes Chung
+#  MIT Licensed
+
+
+-
+  name: Home
+  icon: "fas fa-home"
+  url: '#'
+-
+  name: Education
+  icon: "fas fa-graduation-cap"
+  path: tabs
+  url: '#education'
+-
+  name: Awards
+  icon: "fas fa-award"
+  path: tabs
+  url: '#awards'
+-
+  name: Textbook
+  icon: "fas fa-book"
+  path: tabs
+  url: '#textbook'
+-
+  name: EyeBlog
+  icon: "far fa-eye"
+  path: tabs
+  url: /en/blog/
+-
+  name: "Consulting"
+  icon: "fas fa-plus"
+  path: tabs
+  url:  "#consult"
+-
+  name: "Contact"
+  icon: "fas fa-envelope"
+  path: tabs
+  url:  "#contact"
+-
+  name: "Reviews"
+  icon: "fas fa-comment-medical"
+  path: tabs
+  url: /en/reviews/
