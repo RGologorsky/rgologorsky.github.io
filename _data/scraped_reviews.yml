@@ -1,109 +1,227 @@
 - date: Sep 11, 2020
-  name: ''
+  name: Anonymous
   text: Great service. Very knowledgeable. Made me feel very comfortable during the
     visit and asking questions.  Office manager was very helpful and friendly.  Highly
     recommended!
 
 - date: Sep 10, 2020
-  name: "Geraldine \u2013"
+  name: Geraldine
   text: "He took the time out and explain everything the one thing I didn\u2019t realize\
     \ is that cholesterol can travel through the bloodstream which he explain and\
     \ I love him for that thank you"
 
 - date: Sep 10, 2020
-  name: ''
+  name: Anonymous
   text: Amazing Doctor - I highly recommend to go there if you have any ophthalmological
     questions for you or our kids :-)
 
 - date: Sep 04, 2020
-  name: ''
+  name: Anonymous
   text: I
 
 - date: Sep 01, 2020
-  name: ''
+  name: Anonymous
   text: Wonderful visit answered all my questions nice octor
 
 - date: Aug 28, 2020
-  name: ''
+  name: Anonymous
   text: Dr G was very pleasant to talk with and friendly
 
 - date: Aug 24, 2020
-  name: "Jerry Trevino \u2013"
+  name: Jerry Trevino
   text: "Dr, Gologorsky was extremely friendly and very thorough in explaining every\
     \ test and subsequent results.  I felt very comfortable and safe during the examination.\
     \  I feel like I can trust him completely.  Many doctors make you feel like you\u2019\
-    re just a number, he actually remembered our conversation from an appointment\
-    \ that was over a month ago.  Super cool guy,  I like him a lot!"
+    re just a number, he actually remembered our conversation our conversation 
+    \ from an appointment that was over a month ago. Super cool guy, I like him a lot!"
 
 - date: Aug 24, 2020
-  name: "Amy \u2013"
+  name: Amy
   text: Excellent doctor. Most thorough and great bedside manner. Extremely clean
     office. Best experience.
 
 - date: Aug 20, 2020
-  name: "Demetrius \u2013"
+  name: Demetrius
   text: My visit was great I enjoyed everything !! Wonderful service
 
 - date: Aug 18, 2020
-  name: ''
+  name: Anonymous
   text: Amazing eye visit,very informative.thanks
 
 - date: Aug 08, 2020
-  name: ''
+  name: Anonymous
   text: Dr. Gologorsky is extraordinary!
 
 - date: Aug 07, 2020
-  name: ''
+  name: Anonymous
   text: I'm Craig Meyer,,my visit wirh Dr.Gologorskyis the very best at giving examations,and
     knowing he's graft,as well as being thero,and talking with you not you,very intellaigent,with
     the eye,and shows you a model of the eyer on what is going on on ur eye,,i;ve
-    had several operations,,and other dotors for other reasons,,,,by fait one of three
-    doctor i've the pleasure in being treated
+    had several operations,,and other dotors for other reasons,,,,by fait one of three doctor 
+    i've the pleasure in being treated
 
 - date: Aug 07, 2020
-  name: "Theresa L. \u2013"
+  name: Theresa L.
   text: "This is a great doctor! I recently visited his office and I was nervous and\
     \ concerned about my situation. He set my mind at ease and really took time to\
     \ both listen and talk to me. The exam was very thorough and  I\u2019m thankful\
     \ that I got to see him. He really went above and beyond!"
 
 - date: Jul 24, 2020
-  name: ''
+  name: Anonymous
   text: Very thorough, straight to the point and extremely professional.
 
 - date: Jul 19, 2020
-  name: ''
+  name: Anonymous
   text: Dr. Gologorsky took me immediately after I called and was humorous throughout
     the process. I highly recommend him!
 
 - date: Jul 15, 2020
-  name: "Greg S \u2013"
+  name: Greg S
   text: This was my first time seeing Dr. Daniel, My nerves where at level 10 I had
     no ideal what to expect that being said this was an amazing experience.
 
 - date: Jul 02, 2020
-  name: "Melissa Groll Leonard \u2013"
+  name: Melissa Groll Leonard
   text: Dr Gologorsky is the best ophthalmologist I have ever been to! He is very  thorough
     during all my eye examinations, leaving nothing to chance.  He takes his time
     without being rushed and answers all my questions.  My experience was the best
-    it could have ever been and I highly recommend him! Oh - and I want to mention
-    that during COVID I was especially satisfied and calmed as his office was extremely
-    clean, staff was very professional and scheduled me with no wait time.
+    it could have ever been and I highly recommend him! Oh - and I want to mention that 
+    during COVID I was especially satisfied and calmed as his office was extremely clean, 
+    staff was very professional and scheduled me with no wait time.
 
 - date: Jun 25, 2020
-  name: "Rachel F \u2013"
+  name: Rachel F
   text: Dr Gologorsky is the BEST! From his office being extremely clean, having no
     wait time, to him being extremely thorough during the eye examination, my experience
     was the best it could have ever been. 10/10 definitely recommend!
 
 - date: Jun 23, 2020
-  name: "S Richard \u2013"
+  name: S Richard
   text: 'It was my first time visiting an eye specialist and Dr. Gologorsky was very
     thorough in his examination and  addressed all my concerns. He was very informative.
 
     I would definitely recommend this Doctor.'
 
 - date: Jun 02, 2020
-  name: "Debbie Falic \u2013"
+  name: Debbie Falic
   text: I highly recommend Dr Gologorsky. Thorough and professional eye exam. His
     office is organized and spotless with state of the art equipment.
+
+- date: May 28, 2020
+  name: Robert X Thomas
+  text: I was dealing with a eye issue for about 1 1/2 weeks after seeing two different
+    doctors and filling 3 different Prescriptions that did not work.  I found Dr Gologorsky
+    who examined my eye, cleaned and provided a Prescription that seemed to almost
+    work overnight!! I give Dr and staff 10stars.
+
+- date: May 28, 2020
+  name: Adele
+  text: I saw several ophthalmologists for my blurred vision. Dr. Gologorsky was quick,
+    has good hands, and his exam was gentle. He was able to fix my problem and now
+    I can enjoy reading again.  Very clean office.
+
+- date: May 22, 2020
+  name: Anonymous
+  text: Promt, professional and very helpful
+
+- date: May 21, 2020
+  name: Cherie Watson
+  text: "OMG everyone in the office is warm, professional and truly cared about me.\
+    \ Doc Daniel did a quick surgery to remove a cyst from my  lower eyelid. Fantastic\
+    \ Doctor and staff. \nThank you so much :)"
+
+- date: May 01, 2020
+  name: Meli Al
+  text: Very ignorant doctor, assume everything
+
+- date: Oct 10, 2019
+  name: Sara F
+  text: 'Dr Gologorsky is a combination of an extremely knowledgeable eye specialist
+    and a wonderful and caring person.
+
+    He was very patient in explaining everything in great detail and gave outstanding
+    care.
+
+    He was also very empathetic towards my concerns and really listened to everything
+    I was saying. I would highly recommend Dr Gologorsky.'
+
+- date: Sep 19, 2019
+  name: Renee & David
+  text: Without exaggeration, he is the best ophthalmologist we have EVER had. Kind,
+    caring, patient, and extremely intelligent.
+
+- date: Sep 06, 2018
+  name: ARI R in miami
+  text: 'I''ve been bounced between multiple eyedocs before ending up with Dr G. Very
+    smart physician and took time to diagnose me and explain my condition in detail.
+    I get the sense he really cares about his patients. '
+
+- date: Sep 06, 2018
+  name: Eric in Miami Beach,                           FL
+  text: Saved my dad's eyevision. Cannot understate my gratitude. Would give him 10
+    stars if possible.
+
+- date: Sep 02, 2018
+  name: Marsha
+  text: "Dr. Gologorsky is extremely thorough and patient. It\u2019s rare to find\
+    \ physicians that take the time to explain procedures in terms that patients can\
+    \ understand and I am very grateful for his care and attention."
+
+- date: Jul 03, 2018
+  name: Harold in brooklyn, NY
+  text: 'Great doc. He really listened to what I had to say and explained my diagnosis
+    patiently, answering all my questions. My vision has already improved after just
+    a few treatments. '
+
+- date: Jul 03, 2018
+  name: Norman in Chelsea, NY
+  text: 'Dr. G was truly kind and caring when I met with him for a consultation regarding
+    my eye before and after surgery. My surgery and recovery have gone very smoothly
+    thanks to his brilliant work and compassionate care.
+
+    '
+
+- date: Jun 28, 2018
+  name: Sally in queens
+  text: My mother receives monthly injections into her eyes by Dr. G for her macular
+    degeneration (wet type). He is very patient and careful, and my mother never complains
+    of pain. His staff is excellent and courteous. I highly recommend him.
+
+- date: Jun 26, 2018
+  name: Nicole in New York, NY
+  text: 'A talented surgeon with amazing bedside manner. '
+
+- date: Jun 06, 2018
+  name: Michael in New York City
+  text: In February I was diagnosed with a stroke in my right eye and after treatment
+    with Dr G, I got my sight back! He is my hero! Love him.
+
+- date: May 31, 2018
+  name: Jeffrey in Manhattan, NY
+  text: Dr. G is a talented surgeon and retina specialist - he saved my vision!
+
+- date: May 30, 2018
+  name: Maria in NYC, NY
+  text: Great doctor!
+
+- date: May 24, 2018
+  name: David F in NYC, NY
+  text: Dr. G saved my vision! I had two retinal tears and Dr. G used a laser to fix
+    them both. The entire procedure took 10 minutes and it did not hurt at all. Extremely
+    happy with my experience.
+
+- date: May 24, 2018
+  name: Melisa G
+  text: My mother has macular degeneration and we have been seeing Dr. Gologorsky
+    for two years for her eye injections. I honestly cannot think of a more knowledgeable,
+    kind, and caring retina specialist. His eye injections are literally PAINLESS,
+    and he has  truly saved her vision. Hands down the best retina doc in town.
+
+- date: Aug 03, 2017
+  name: Miami, FL
+  text: Dr. Gologorsy has been a blessing to me during a frightening and painful time.
+    He first treated me for a massive retinal tear through the ER at Bascon Palmer.
+    I now see a specialist, but Dr. Gologorky has followed my case and has answered
+    my many questions with great patience for over a year. He is clearly a gifted physician 
+    and scholar. He is also devoted to his patients and generous with his knowledge and time.

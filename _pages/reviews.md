@@ -21,7 +21,7 @@ lang: en
 
 <div>
 
- {% for review in site.data.scraped_reviews %}
+ {% for review in site.data.reviews %}
   <div>
     <div>
         <span class="float-right">
