@@ -40,7 +40,6 @@ social:
     # - https://www.linkedin.com/in/username
 
 google_site_verification: google_meta_tag_verification # change to your verification string
-
 #--------------------------
 
 # if your site type is Project Pages site, change below value to '/projectname'
@@ -55,7 +54,7 @@ timezone: America/New_York
 
 google_analytics:
   # Fill with your Google Analytics ID
-  id: ''
+  id: 'GTM-59KRQMT'
   # The Google Analytics pageviews switch.
 
   pv:
