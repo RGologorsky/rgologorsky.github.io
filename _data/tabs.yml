@@ -8,7 +8,7 @@
 -
   name: About
   icon: "fas fa-home"
-  url: '#'
+  url: '#about'
   
 -
   name: Expertise
