@@ -1,16 +1,16 @@
 en:
-  name: English
+  name: En
   # flag: 🇺🇸
   flag: /assets/img/flags/united-states-of-america-flag-icon-32.png
 es:
-  name: Español
+  name: Es
   #flag: 🇪🇸
   flag: /assets/img/flags/spain-flag-icon-32.png
 he:
-  name: Hebrew
+  name: He
   # flag: 🇮🇱
   flag: /assets/img/flags/israel-flag-icon-32.png
 ru:
-  name: Russian
+  name: Ru
   # flag: 🇷🇺
   flag: /assets/img/flags/russia-flag-icon-32.png

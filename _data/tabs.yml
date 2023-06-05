@@ -6,9 +6,16 @@
 
 
 -
-  name: Home
+  name: About
   icon: "fas fa-home"
   url: '#'
+  
+-
+  name: Expertise
+  icon: "fas fa-book"
+  path: tabs
+  url: '#expertise'
+
 -
   name: Education
   icon: "fas fa-graduation-cap"

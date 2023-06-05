@@ -22,7 +22,7 @@
 	{% else %}
 
 	<div class="language-switcher-container py-3 py-md-4">
-		<p class="lead d-block d-md-inline-block">Read this in:&nbsp;</p>
+		<!-- <p class="lead d-block d-md-inline-block">Read this in:&nbsp;</p> -->
 		<ul class="lang-switcher list-style-none pl-0">
 		{% assign pagesall=site.pages | where:"ref", page.ref | sort: 'lang' %}
 		{% for post in pagesall %}
