@@ -50,4 +50,5 @@
   name: "Reviews"
   icon: "fas fa-comment-medical"
   path: tabs
-  url: /en/reviews/
+  url: https://www.healthgrades.com/physician/dr-daniel-gologorsky-y9qfc2z
+  # url: /en/reviews/
