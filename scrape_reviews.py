@@ -11,6 +11,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 import time
 
+# svg https://deeditor.com/
+
 #launch url
 url = "https://www.healthgrades.com/physician/dr-daniel-gologorsky-y9qfc2z/comments"
 
