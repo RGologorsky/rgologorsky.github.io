@@ -9,13 +9,11 @@
   name: About
   icon: "fas fa-home"
   url: '#about'
-  
 -
   name: Expertise
   icon: "fas fa-book"
   path: tabs
   url: '#expertise'
-
 -
   name: Education
   icon: "fas fa-graduation-cap"
@@ -32,11 +30,6 @@
   path: tabs
   url: '#textbook'
 -
-  name: EyeBlog
-  icon: "far fa-eye"
-  path: tabs
-  url: /en/blog/
--
   name: "Consulting"
   icon: "fas fa-plus"
   path: tabs
@@ -46,6 +39,11 @@
   icon: "fas fa-envelope"
   path: tabs
   url:  "#contact"
+-
+  name: EyeBlog
+  icon: "far fa-eye"
+  path: tabs
+  url: /en/blog/
 -
   name: "Reviews"
   icon: "fas fa-comment-medical"
