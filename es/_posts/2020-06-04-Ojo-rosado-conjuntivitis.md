@@ -6,7 +6,7 @@ lang: es
 ref: pink-eye
 breadcrumb: 
   - label: EyeBlog
-    url: /blog/
+    url: /es/blog/
 ---
 
 

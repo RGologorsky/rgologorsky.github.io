@@ -1,42 +1,43 @@
+{% if page.ref %} {% if page.path contains '_posts' %}
+<div class="language-switcher-container py-3 py-md-4">
+	<ul class="lang-switcher list-style-none pl-0">
+		{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %} {% for
+		post in posts %} {% if post.ref %}
+		<li class="mb-2">
+			{% if post.url == page.url %}
+			<img width="24" src="{{site.data.lang[post.lang].flag}}" alt="{{ site.data.lang[post.lang].name }}"
+				title="Switch language to {{post.lang}}" />
+			{{ site.data.lang[post.lang].name }}</a>
+			{% else %}
+			<a href="{{ post.url }}" class="{{ post.lang }}" title="Switch language to {{post.lang}}">
+				<img width="24" src="{{site.data.lang[post.lang].flag}}" alt="{{ site.data.lang[post.lang].name }}"
+					title="Switch language to {{post.lang}}" />
+				{{ site.data.lang[post.lang].name }}</a>
+			{% endif %}
+		</li>
+		{% endif %} {% endfor %}
+	</ul>
+</div>
 
-{% if page.ref %}
-	{% if page.path contains '_posts' %}
-	<div class="language-switcher-container py-3 py-md-4">
-		<p class="lead d-block d-md-inline-block">Read this in:&nbsp;</p>
-		<ul class="lang-switcher list-style-none pl-0">
-		{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-		{% for post in posts %}
-			{% if post.ref %}
-			  <li class="mb-2">
-					<a href="{{ post.url }}" 
-						class="{{ post.lang }}">
-					<img width="24" 
-						src="{{site.data.lang[post.lang].flag}}" 
-						alt="{{ site.data.lang[post.lang].name }}"> {{ site.data.lang[post.lang].name }}</a>
-			  </li>
-		 {% endif %}
-		{% endfor %}
-		</ul>
-		</div>
+{% else %}
 
-	{% else %}
-
-	<div class="language-switcher-container py-3 py-md-4">
-		<!-- <p class="lead d-block d-md-inline-block">Read this in:&nbsp;</p> -->
-		<ul class="lang-switcher list-style-none pl-0">
-		{% assign pagesall=site.pages | where:"ref", page.ref | sort: 'lang' %}
-		{% for post in pagesall %}
-			{% if post.ref %}
-			  <li class="mb-2">
-					<a href="{{ post.url }}" 
-						class="{{ post.lang }}">
-					<img width="24" 
-						src="{{site.data.lang[post.lang].flag}}" 
-						alt="{{ site.data.lang[post.lang].name }}"> {{ site.data.lang[post.lang].name }}</a>
-			  </li>
-		 {% endif %}
-		{% endfor %}
-		</ul>
-		</div>
-	{% endif %}
-{% endif %}
+<div class="language-switcher-container py-3 py-md-4">
+	<ul class="lang-switcher list-style-none pl-0">
+		{% assign pagesall=site.pages | where:"ref", page.ref | sort: 'lang' %} {%
+		for post in pagesall %} {% if post.ref %}
+		<li class="mb-2">
+			{% if post.url == page.url %}
+			<img width="24" src="{{site.data.lang[post.lang].flag}}" alt="{{ site.data.lang[post.lang].name }}"
+				title="Switch language to {{post.lang}}" />
+			{{ site.data.lang[post.lang].name }}</a>
+			{% else %}
+			<a href="{{ post.url }}" class="{{ post.lang }}" title="Switch language to {{post.lang}}">
+				<img width="24" src="{{site.data.lang[post.lang].flag}}" alt="{{ site.data.lang[post.lang].name }}"
+					title="Switch language to {{post.lang}}" />
+				{{ site.data.lang[post.lang].name }}</a>
+			{% endif %}
+		</li>
+		{% endif %} {% endfor %}
+	</ul>
+</div>
+{% endif %} {% endif %}

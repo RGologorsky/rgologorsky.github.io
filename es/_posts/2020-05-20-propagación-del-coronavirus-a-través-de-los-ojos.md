@@ -7,7 +7,7 @@ lang: es
 ref: coronavirus-eye-transmission
 breadcrumb: 
   - label: EyeBlog
-    url: /blog/
+    url: /es/blog/
 ---
 
 
