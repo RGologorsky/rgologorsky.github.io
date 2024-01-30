@@ -21,16 +21,16 @@
   </div>
   <p>{snippet}</p>
 </div>
+{% endcapture %} {% capture not_found %}
+<p class="mt-5">Oops! No result found.</p>
 {% endcapture %}
 
-{% capture not_found %}<p class="mt-5">Oops! No result found.</p>{% endcapture %}
-
 <script>
-SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('search-results'),
-  json: '{{ site.baseurl }}/assets/data/search.json',
-  searchResultTemplate: '{{ result_elem | strip_newlines }}',
-  noResultsText: '{{ not_found }}'
-});
+  SimpleJekyllSearch({
+    searchInput: document.getElementById("search-input"),
+    resultsContainer: document.getElementById("search-results"),
+    json: "{{ site.baseurl }}/assets/data/search.json",
+    searchResultTemplate: `{{ result_elem | strip_newlines }}`,
+    noResultsText: `{{ not_found }}`,
+  });
 </script>
