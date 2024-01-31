@@ -25,11 +25,6 @@
   path: tabs
   url: '#awards'
 -
-  name: Textbook
-  icon: "fas fa-book"
-  path: tabs
-  url: '#textbook'
--
   name: "Consulting"
   icon: "fas fa-plus"
   path: tabs
@@ -44,6 +39,11 @@
   icon: "far fa-eye"
   path: tabs
   url: /en/blog/
+-
+  name: Textbook
+  icon: "fas fa-book"
+  path: tabs
+  url: '/publications/'
 -
   name: "Reviews"
   icon: "fas fa-comment-medical"
