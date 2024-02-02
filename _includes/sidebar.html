@@ -29,7 +29,7 @@
       <!-- Start Square Appointments Embed code -->
       <div id="job-contact" class="text-center text-uppercase small pt-2">
         <a
-          class="btn btn-primary btn-sm text-light"
+          class="sidebar-schedule-btn btn btn-primary btn-sm text-light"
           style="margin: 0"
           target="_top"
           href="https://squareup.com/appointments/book/mb34w9v87o2g0a/L6WQ2ZCD1V07V/start"
@@ -85,6 +85,7 @@
   </a>
   {% endif %} {% assign email = site.social.email | split: '@' %}
   <a
+    class="sidebar-email-btn"
     href="javascript:window.open('mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@'))"
   >
     <i class="fas fa-envelope"></i>
