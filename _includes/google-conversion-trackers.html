@@ -19,3 +19,164 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
   }
   sidebar_consultation_btn.addEventListener("click", gtag_report_conversion);
 </script>
+
+<!-- Event snippet for schedule-appointment-homepage-click conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  const sidebar_consultation_homepage_btn = document.querySelector(
+    ".homepage-schedule-btn"
+  );
+  function gtag_report_conversion_2(url) {
+    var callback = function () {
+      if (typeof url != "undefined") {
+        window.location = url;
+      }
+    };
+    gtag("event", "conversion", {
+      send_to: "AW-618975445/qQPiCNXujpIZENWhk6cC",
+      event_callback: callback,
+    });
+    return false;
+  }
+  sidebar_consultation_homepage_btn.addEventListener(
+    "click",
+    gtag_report_conversion_2
+  );
+</script>
+
+<!-- Event snippet for call-btn-click-topbar conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  const call_us_topbar_btn = document.querySelector(".top-call-us-btn");
+  function gtag_report_conversion_3(url) {
+    var callback = function () {
+      if (typeof url != "undefined") {
+        window.location = url;
+      }
+    };
+    gtag("event", "conversion", {
+      send_to: "AW-618975445/ic4WCKHGiZIZENWhk6cC",
+      event_callback: callback,
+    });
+    return false;
+  }
+  call_us_topbar_btn.addEventListener("click", gtag_report_conversion_3);
+</script>
+
+<!-- Event snippet for call-us-contact-section-btn conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  const call_us_contact_section_btn = document.querySelector(
+    ".contact-section-call-btn"
+  );
+  function gtag_report_conversion_4(url) {
+    var callback = function () {
+      if (typeof url != "undefined") {
+        window.location = url;
+      }
+    };
+    gtag("event", "conversion", {
+      send_to: "AW-618975445/u4v5CNPBg5IZENWhk6cC",
+      event_callback: callback,
+    });
+    return false;
+  }
+  call_us_contact_section_btn.addEventListener(
+    "click",
+    gtag_report_conversion_4
+  );
+</script>
+
+<!-- Event snippet for email-contact-section-click conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  const email_contact_section_btn = document.querySelector(
+    ".contact-section-email-btn"
+  );
+  function gtag_report_conversion_5(url) {
+    var callback = function () {
+      if (typeof url != "undefined") {
+        window.location = url;
+      }
+    };
+    gtag("event", "conversion", {
+      send_to: "AW-618975445/gwwVCKvTiZIZENWhk6cC",
+      event_callback: callback,
+    });
+    return false;
+  }
+  email_contact_section_btn.addEventListener("click", gtag_report_conversion_5);
+</script>
+
+<!-- Event snippet for form-contact-section-submission conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  const form_contact_section_submit_btn = document.querySelector(
+    ".contact-section-form-submission-btn"
+  );
+  function gtag_report_conversion_6(url) {
+    var callback = function () {
+      if (typeof url != "undefined") {
+        window.location = url;
+      }
+    };
+    gtag("event", "conversion", {
+      send_to: "AW-618975445/c0XLCITZiZIZENWhk6cC",
+      event_callback: callback,
+    });
+    return false;
+  }
+  form_contact_section_submit_btn.addEventListener(
+    "click",
+    gtag_report_conversion_6
+  );
+</script>
+
+<!-- Event snippet for get-direction-contact-section-click conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  const get_direction_contact_section_submit_btn = document.querySelector(
+    ".contact-section-get-direction-btn"
+  );
+  function gtag_report_conversion_7(url) {
+    var callback = function () {
+      if (typeof url != "undefined") {
+        window.location = url;
+      }
+    };
+    gtag("event", "conversion", {
+      send_to: "AW-618975445/3Nq7COmOj5IZENWhk6cC",
+      event_callback: callback,
+    });
+    return false;
+  }
+  get_direction_contact_section_submit_btn.addEventListener(
+    "click",
+    gtag_report_conversion_7
+  );
+</script>
+
+<!-- Event snippet for sidebar-email-btn-click conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  const email_sidebar_section_submit_btn =
+    document.querySelector(".sidebar-email-btn");
+  function gtag_report_conversion_8(url) {
+    console.log("runs");
+
+    var callback = function () {
+      if (typeof url != "undefined") {
+        window.location = url;
+      }
+    };
+    gtag("event", "conversion", {
+      send_to: "AW-618975445/ZL79CMObj5IZENWhk6cC",
+      event_callback: callback,
+    });
+    return false;
+  }
+  email_sidebar_section_submit_btn.addEventListener(
+    "click",
+    gtag_report_conversion_8
+  );
+</script>
