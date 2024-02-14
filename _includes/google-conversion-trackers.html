@@ -1,0 +1,21 @@
+<!-- Event snippet for schedule-appointment-button-click conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  const sidebar_consultation_btn = document.querySelector(
+    ".sidebar-schedule-btn"
+  );
+
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof url != "undefined") {
+        window.location = url;
+      }
+    };
+    gtag("event", "conversion", {
+      send_to: "AW-618975445/43K7CKnhgpIZENWhk6cC",
+      event_callback: callback,
+    });
+    return false;
+  }
+  sidebar_consultation_btn.addEventListener("click", gtag_report_conversion);
+</script>

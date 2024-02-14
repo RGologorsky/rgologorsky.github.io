@@ -20,7 +20,6 @@
   {% include head.html %}
 
   <body data-spy="scroll" data-target="#toc">
-
     <div id="sidebar" class="d-flex flex-column">
       {% include sidebar.html %}
     </div>
@@ -64,6 +63,7 @@
     {% if page.type == 'home' %}
       {% include contact-form-script.html %}
     {% endif %}
+    {% include google-conversion-trackers.html %}
   </body>
 
 </html>
