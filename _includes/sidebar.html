@@ -110,7 +110,6 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
     const url = event.target.href;
     const callback = function () {
       if (typeof url != "undefined") {
-        return false;
       }
     };
     gtag("event", "conversion", {
@@ -131,7 +130,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
     const url = event.target.href;
     const callback = function () {
       if (typeof url != "undefined") {
-        return false;
+        window.open(url);
       }
     };
     gtag("event", "conversion", {
