@@ -142,10 +142,11 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
   const call_us_contact_section_btn = document.querySelector(
     ".contact-section-call-btn"
   );
-  function gtag_report_conversion_4(url) {
-    var callback = function () {
+  function gtag_report_conversion_4(event) {
+    const url = event.target.href;
+    const callback = function () {
       if (typeof url != "undefined") {
-        window.location = url;
+        // window.open(url);
       }
     };
     gtag("event", "conversion", {
@@ -166,10 +167,11 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
   const email_contact_section_btn = document.querySelector(
     ".contact-section-email-btn"
   );
-  function gtag_report_conversion_5(url) {
-    var callback = function () {
+  function gtag_report_conversion_5(event) {
+    const url = event.target.href;
+    const callback = function () {
       if (typeof url != "undefined") {
-        window.location = url;
+        window.open(url);
       }
     };
     gtag("event", "conversion", {
@@ -190,7 +192,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
   function gtag_report_conversion_6(url) {
     var callback = function () {
       if (typeof url != "undefined") {
-        window.location = url;
+        // window.location = url;
       }
     };
     gtag("event", "conversion", {
@@ -214,7 +216,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
   function gtag_report_conversion_7(url) {
     var callback = function () {
       if (typeof url != "undefined") {
-        window.location = url;
+        // window.location = url;
       }
     };
     gtag("event", "conversion", {
