@@ -98,3 +98,50 @@
     <i class="fas fa-rss"></i>
   </a>
 </div>
+
+<!-- Event snippet for schedule-appointment-button-click conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  const sidebar_consultation_btn = document.querySelector(
+    ".sidebar-schedule-btn"
+  );
+
+  function gtag_report_conversion(event) {
+    const url = event.target.href;
+    const callback = function () {
+      if (typeof url != "undefined") {
+        return false;
+      }
+    };
+    gtag("event", "conversion", {
+      send_to: "AW-618975445/43K7CKnhgpIZENWhk6cC",
+      event_callback: callback,
+    });
+    return false;
+  }
+  sidebar_consultation_btn.addEventListener("click", gtag_report_conversion);
+</script>
+
+<!-- Event snippet for sidebar-email-btn-click conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  const email_sidebar_section_submit_btn =
+    document.querySelector(".sidebar-email-btn");
+  function gtag_report_conversion_8(event) {
+    const url = event.target.href;
+    const callback = function () {
+      if (typeof url != "undefined") {
+        return false;
+      }
+    };
+    gtag("event", "conversion", {
+      send_to: "AW-618975445/ZL79CMObj5IZENWhk6cC",
+      event_callback: callback,
+    });
+    return false;
+  }
+  email_sidebar_section_submit_btn.addEventListener(
+    "click",
+    gtag_report_conversion_8
+  );
+</script>

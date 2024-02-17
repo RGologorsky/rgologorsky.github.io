@@ -35,7 +35,11 @@
       {% include lang-switcher.html %}
     </div> -->
     <div class="call-btn">
-      <a class="top-call-us-btn btn btn-sm btn-primary px-4" href="tel:3059023200">Call Us</a>
+      <a
+        class="top-call-us-btn btn btn-sm btn-primary px-4"
+        href="tel:3059023200"
+        >Call Us</a
+      >
     </div>
     <i id="search-trigger" class="fas fa-search fa-fw"></i>
     <span id="search-wrapper" class="align-items-center">
@@ -51,3 +55,22 @@
     <span id="search-cancel">Cancel</span>
   </div>
 </div>
+
+<!-- Event snippet for call-btn-click-topbar conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  const call_us_topbar_btn = document.querySelector(".top-call-us-btn");
+  function gtag_report_conversion_3(url) {
+    var callback = function () {
+      if (typeof url != "undefined") {
+        window.location = url;
+      }
+    };
+    gtag("event", "conversion", {
+      send_to: "AW-618975445/ic4WCKHGiZIZENWhk6cC",
+      event_callback: callback,
+    });
+    return false;
+  }
+  call_us_topbar_btn.addEventListener("click", gtag_report_conversion_3);
+</script>

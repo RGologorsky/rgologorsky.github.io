@@ -2,19 +2,33 @@
 	<div class="colorlib-narrow-content">
 		<div class="row">
 			<div class="col-md-12">
-				<a class="homepage-schedule-btn" style="color:white !important"
-					href="https://squareup.com/appointments/book/mb34w9v87o2g0a/L6WQ2ZCD1V07V/start/" target="_blank" rel="nofollow noreferrer noopener">Schedule a
+				<a class="homepage-schedule-btn" href="https://squareup.com/appointments/book/mb34w9v87o2g0a/L6WQ2ZCD1V07V/start/" target="_blank" rel="nofollow noreferrer noopener">Schedule a
 					Consultation</a>
-				<!-- <div class="row row-bottom-padded-sm  " >
-				<div class="col-md-12">
-					<div class="about-desc">
-						<p><strong>Daniel Gologorsky, MD, MBA</strong> is the Director of Ophthalmology at Mount Sinai Medical Center in Miami Beach, and Chief of Ophthalmology at Broward Health Medical Center in Fort Lauderdale. He is a board-certified Ophthalmologist and fellowship-trained Retina specialist who takes compassionate care of patients with all types of eye disease, including diabetic retinopathy, macular degeneration, glaucoma, cataract, uveitis, and dry eye. Dr. Gologorsky is a published textbook author and prolific academic who has lectured nationally and internationally.  An expert of ophthalmic imaging and lasers, Dr. Gologorsky's office has the latest generation cutting edge technology to improve diagnostic precision and improve patient comfort. A native of Miami Beach, Dr. Gologorsky enjoys Roman history, playing chess, kayaking, and biking.
-					</div>
-				</div>
-			</div> -->
 			</div>
 		</div>
 </section>
+
+<!-- Event snippet for schedule-appointment-homepage-click conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+	const consultation_homepage_btn = document.querySelector(
+	  ".homepage-schedule-btn"
+	);
+	function gtag_report_conversion_2(event) {
+	  const url = event.target.href;
+	  const callback = function () {
+		if (typeof url != "undefined") {
+		  return false
+		}
+	  };
+	  gtag("event", "conversion", {
+		send_to: "AW-618975445/qQPiCNXujpIZENWhk6cC",
+		event_callback: callback,
+	  });
+	  return false;
+	}
+	consultation_homepage_btn.addEventListener("click", gtag_report_conversion_2);
+  </script>
 
 <style>
 	.homepage-schedule-btn {
