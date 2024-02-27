@@ -52,8 +52,9 @@
       class="nav-item d-flex justify-content-center {% if page.url == item.url %}active{% endif %}"
     >
       <a
-        href="{% if page.type != 'home' %}{{ site.url}}{{ item.url }}{% else %}{{ item.url }}{% endif %}"
+        href="{{item.url}}"
         class="nav-link d-flex justify-content-center align-items-center w-100"
+        target="{% if item.external %}_blank{% endif %}"
       >
         <i class="fa-fw {{ item.icon }} ml-3 mr-3 unloaded"></i>
         <span>{{ item.name | upcase }}</span>

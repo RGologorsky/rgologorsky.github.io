@@ -8,32 +8,32 @@
 -
   name: About
   icon: "fas fa-home"
-  url: '#about'
+  url: '/#about'
 -
   name: Expertise
   icon: "fas fa-book"
   path: tabs
-  url: '#expertise'
+  url: '/#expertise'
 -
   name: Education
   icon: "fas fa-graduation-cap"
   path: tabs
-  url: '#education'
+  url: '/#education'
 -
   name: Awards
   icon: "fas fa-award"
   path: tabs
-  url: '#awards'
+  url: '/#awards'
 -
   name: "Consulting"
   icon: "fas fa-plus"
   path: tabs
-  url:  "#consult"
+  url:  "/#consult"
 -
   name: "Contact"
   icon: "fas fa-envelope"
   path: tabs
-  url:  "#contact"
+  url:  "/#contact"
 -
   name: EyeBlog
   icon: "far fa-eye"
@@ -49,4 +49,4 @@
   icon: "fas fa-comment-medical"
   path: tabs
   url: "https://www.healthgrades.com/physician/dr-daniel-gologorsky-y9qfc2z"
-  # url: /en/reviews/
+  external: true

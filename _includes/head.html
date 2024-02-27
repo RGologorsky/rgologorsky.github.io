@@ -34,21 +34,21 @@
   />
   <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
 
-  {% if site.google_analytics.pv.proxy_url and site.google_analytics.pv.enabled %}
+  {% if site.google_analytics.pv.proxy_url and site.google_analytics.pv.enabled
+  %}
   <link
     rel="preconnect"
     href="{{ site.google_analytics.pv.proxy_url }}"
     crossorigin="use-credentials"
   />
-  <link rel="dns-prefetch" href="{{ site.google_analytics.pv.proxy_url }}" />
-  {% endif %} {% endif %}
-
-  {% if jekyll.environment == 'production' and site.google_analytics %} {%
-  include google-analytics-head.html %} {% endif %}
 
   <!-- jsdelivr CDN -->
   <link rel="preconnect" href="https://cdn.jsdelivr.net" />
   <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+
+  <link rel="dns-prefetch" href="{{ site.google_analytics.pv.proxy_url }}" />
+  {% endif %} {% endif %} {% if jekyll.environment == 'production' and
+  site.google_analytics %} {% include google-analytics-head.html %} {% endif %}
 
   <link
     rel="preload"
@@ -238,6 +238,5 @@
     href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&display=swap"
     rel="stylesheet"
   />
-  {% include search-script.html %}
-  {% include google-conversions-head.html %}
+  {% include search-script.html %} {% include google-conversions-head.html %}
 </head>
