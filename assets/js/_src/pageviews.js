@@ -22,7 +22,6 @@ function countUp(min, max, destId) {
   }
 }
 
-
 function countPV(path, rows) {
   /* path permalink looks like: '/posts/post-title/' */
   var fileName = path.replace(/\/posts\//g, '').replace(/\//g, '.html'); /* e.g. post-title.html */
