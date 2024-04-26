@@ -13,7 +13,7 @@ lang: en
 {% for item in posts %}
   {% for tag in item.tags %}
    <div id="{{ tag | slugize }}"></div>
-    <h2 class="tag-head">{{ tag }}</h2>
+    <h1 class="tag-head">{{ tag }}</h1>
     {% for post in site.tags[tag] %}
       <article class="archive-item">
         <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
