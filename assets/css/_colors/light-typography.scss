@@ -22,9 +22,9 @@
   // This is a comment --text-color: #333333;
   // --text-color: rgba(0, 0, 0, 0.7);
 
-  --text-color: rgba(0, 0, 0, 0.7);
+  --text-color: rgba(0, 0, 0, 0.7) !important;
 
-  --dark-text-color: ragba(0, 0, 0, 0.9);
+  --dark-text-color: rgba(0, 0, 0, 0.9);
 
   --blockquote-border-color: #eee;
 
