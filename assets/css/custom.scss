@@ -22,6 +22,10 @@ $on-laptop: 800px;
   }
 }
 
+html {
+  color: var(--text-color-r) !important;
+}
+
 html,
 body {
   // font-family: serif !important;
@@ -29,6 +33,7 @@ body {
   font-weight: 400;
   scroll-behavior: smooth;
   text-rendering: optimizelegibility;
+  color: var(--text-color-r) !important;
 }
 
 h1,
@@ -37,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--text-color);
+  color: var(--text-color-r);
   // font-family: serif !important;
   letter-spacing: 0px;
   line-height: 1.8;
@@ -46,7 +51,7 @@ h6 {
 
 #sidebar {
   .nav-link {
-    color: var(--text-color);
+    color: var(--text-color-r);
     span {
       border-bottom: 1px solid transparent;
       transition: border-color 0.35s ease-in-out;
@@ -68,9 +73,9 @@ h6 {
 }
 
 #site-title a {
-  color: var(--text-color);
+  color: var(--text-color-r);
   &:hover {
-    color: var(--text-color);
+    color: var(--text-color-r);
   }
 }
 
@@ -94,10 +99,10 @@ h6 {
   .panel {
     margin-bottom: 10px;
     a {
-      color: var(--text-color);
+      color: var(--text-color-r);
       text-transform: uppercase;
       &:hover {
-        color: var(--text-color);
+        color: var(--text-color-r);
       }
     }
   }
@@ -152,7 +157,7 @@ h6 {
     color: #000 !important;
 
     a {
-      color: var(--text-color);
+      color: var(--text-color-r);
       pointer-events: none;
       cursor: unset;
     }
@@ -161,7 +166,7 @@ h6 {
   p {
     margin: 10px 0 !important;
     padding: 0;
-    color: var(--text-color);
+    color: var(--text-color-r);
   }
 
   .timeline-centered::before {
@@ -426,7 +431,7 @@ h6 {
 
 .myaccordion .btn {
   width: 100%;
-  color: var(--text-color);
+  color: var(--text-color-r);
   padding: 0;
   font-weight: normal;
   text-transform: uppercase;

@@ -61,12 +61,16 @@
     setLight() {
       $('html').attr(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
       $('html').removeAttr('text-color');
+
+      $('html').removeAttr('text-color-r');
+
       sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
     }
 
     clearMode() {
       $('html').removeAttr(ModeToggle.MODE_KEY);
       $('html').removeAttr('text-color');
+      $('html').removeAttr('text-color-r');
       sessionStorage.removeItem(ModeToggle.MODE_KEY);
     }
 

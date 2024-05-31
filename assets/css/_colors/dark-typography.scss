@@ -18,7 +18,9 @@
   --footer-bg-color: var(--main-wrapper-bg);
 
   /* common color */
-  --text-color: rgb(175, 176, 177);
+  --text-color: rgb(175, 176, 177) !important;
+  --text-color-r: rgb(175,176, 177) !important;
+
   --text-muted-color: rgb(107, 116, 124);
   --link-color: rgb(138, 180, 248);
   --link-underline-color: rgb(82, 108, 150);
