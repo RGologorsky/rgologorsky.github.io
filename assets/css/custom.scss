@@ -82,6 +82,44 @@ h6 {
   color: var(--link-color) !important;
 }
 
+#sidebar .sidebar-bottom #mode-toggle-wrapper i {
+  color: inherit !important;
+  cursor: pointer;
+}
+
+#sidebar a {
+  color: inherit;
+}
+
+#job-profile {
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+#topbar-lang {
+  position: fixed;
+  right: 0;
+  top: 50%;
+}
+
+.lang-switcher {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  li {
+    // display: inline-block;
+    // margin-left: 5px;
+    // margin-right: 10px;
+    @include media-query($on-palm) {
+      margin: 0;
+    }
+    img {
+      margin-bottom: 0px;
+    }
+  }
+}
+
 #search-result-wrapper {
   width: calc(100% - 300px);
 
@@ -336,43 +374,6 @@ h6 {
   }
 }
 
-#sidebar .sidebar-bottom #mode-toggle-wrapper i {
-  color: inherit !important;
-  cursor: pointer;
-}
-
-#sidebar a {
-  color: inherit;
-}
-
-#job-profile {
-  font-weight: bold;
-  font-size: 1em;
-  line-height: 1.5;
-}
-
-#topbar-lang {
-  position: fixed;
-  right: 0;
-  top: 50%;
-}
-.lang-switcher {
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-  li {
-    // display: inline-block;
-    // margin-left: 5px;
-    // margin-right: 10px;
-    @include media-query($on-palm) {
-      margin: 0;
-    }
-    img {
-      margin-bottom: 0px;
-    }
-  }
-}
-
 .rtl {
   direction: rtl;
 }
@@ -423,6 +424,7 @@ h6 {
 .myaccordion .fa-stack {
   font-size: 18px;
 }
+
 
 .myaccordion .btn {
   width: 100%;
