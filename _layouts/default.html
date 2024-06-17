@@ -9,15 +9,14 @@
 
 <!DOCTYPE html>
 
-<!-- {% capture prefer_mode %}
+{% capture prefer_mode %}
   {% if site.theme_mode != "dual" %}
     mode="{{ site.theme_mode }}"
   {% endif %}
-{% endcapture %} -->
+{% endcapture %}
 
-<!-- <html lang="{% if page.lang %}{% if page.lang=='he' %}{% else %}{{- page.lang -}}{% endif %}{% else %}en{% endif %}" {{ prefer_mode }} > -->
+<html lang="{% if page.lang %}{% if page.lang=="he" %}{% else %}{{- page.lang -}}{% endif %}{% else %}en{% endif %}" {{ prefer_mode }} >
 
-<!-- <html lang="{{ page.lang | default: 'en' }}"> -->
   {% include head.html %}
 
   <body data-spy="scroll" data-target="#toc">

@@ -50,10 +50,11 @@ html[mode=dark] {
   }
 }
 
+
 body {
   line-height: 1.8;
   background: var(--body-bg);
-  color: var(--text-color) !important;
+  color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   font-family: "Palatino", Palatino, serif;
 }

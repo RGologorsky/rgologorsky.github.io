@@ -15,10 +15,10 @@
   class ModeToggle {
     static get MODE_KEY() { return "mode"; }
     static get DARK_MODE() { 
-      // return "dark"; 
+       return "dark"; 
     }
     static get LIGHT_MODE() { 
-      // return "light"; 
+       return "light"; 
     }
 
     constructor() {
@@ -64,17 +64,11 @@
 
     setLight() {
       $('html').attr(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
-      $('html').removeAttr('text-color');
-
-      $('html').removeAttr('text-color-r');
-
       sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
     }
 
     clearMode() {
       $('html').removeAttr(ModeToggle.MODE_KEY);
-      $('html').removeAttr('text-color');
-      $('html').removeAttr('text-color-r');
       sessionStorage.removeItem(ModeToggle.MODE_KEY);
     }
 
@@ -84,44 +78,33 @@
 
     get isDarkMode() { return this.mode == ModeToggle.DARK_MODE; }
 
-    get isLightMode() { return this.mode == ModeToggle.LIGHT_MODE; }
+    get isLightkMode() { return this.mode == ModeToggle.LIGHT_MODE; }
 
     get hasMode() { return this.mode != null; }
 
     get mode() { return sessionStorage.getItem(ModeToggle.MODE_KEY); }
 
     flipMode() {
-      // console.log("Hi flip mode");
       if (this.hasMode) {
-        // console.log("Hi has mode");
         if (this.isSysDarkPrefer) {
-          // console.log("Hi is sys dark prefer");
-          if (this.isLightMode) {
-            // console.log("Hi sys dark prefer and light mode");
+          if (this.isLightkMode) {
             this.clearMode();
           } else {
-            // console.log("Hi is not sys dark prefer");
             this.setLight();
           }
 
         } else {
-          // console.log("Hi is not sys dark prefer");
           if (this.isDarkMode) {
-            // console.log("Hi is dark mode");
             this.clearMode();
-            this.setLight();
           } else {
-            // console.log("Hi set dark");
             this.setDark();
           }
         }
 
       } else {
         if (this.isSysDarkPrefer) {
-          // console.log("Hi what");
           this.setLight();
         } else {
-          // console.log("Hi what what");
           this.setDark();
         }
       }
