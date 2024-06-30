@@ -1,39 +1,59 @@
-<section class="education" id="education">
-<div class="">
-	<div class="row">
-		<div class="col-md-12">
-			<h3 class="">Education &amp; Training</h3>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-12">
-	    <div class="row">
-	      <div class="col">
-	        <div id="accordion" class="myaccordion">
+<header>
+	<h2 class="h2 article-title">Resume</h2>
+</header>
 
-	          {% for item in site.data.education %}
-	          <div class="card">
-	            <div class="card-header" id="heading-{{forloop.index}}">
-	              <p class="m-0">
-	                <button class="accordion-toggle d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-{{forloop.index}}" aria-expanded="false" aria-controls="collapse-{{forloop.index}}">
-	                  {{item.college}}
-	                    <i class="fa fa-minus fix-to-right"></i>
-	                  </span>
-	                </button>
-	              </p>
-	            </div>
-	            <div id="collapse-{{forloop.index}}" class="collapse" aria-labelledby="heading-{{forloop.index}}" data-parent="#accordion">
-	              <div class="card-body">
-	               {{item.study}}
-	              </div>
-	            </div>
-	          </div>
-	          {% endfor %}
-	        </div>
-	      </div>
-	    </div>
+<section class="timeline">
 
-		</div>
+	<div class="title-wrapper">
+	<div class="icon-box">
+		<ion-icon name="book-outline"></ion-icon>
 	</div>
-</div>
+
+	<h3 class="h3">Education & Training</h3>
+	</div>
+
+	<ol class="timeline-list">
+    {% for item in site.data.education %}
+	<li class="timeline-item">
+
+		<h4 class="h4 timeline-item-title">{{item.college}}</h4>
+
+		<span>2007 — 2008</span>
+
+		<p class="timeline-text">
+		{{item.study}}
+		</p>
+
+	</li>
+    {% endfor %}
+	</ol>
+
+</section>
+
+<section class="timeline">
+
+	<div class="title-wrapper">
+	<div class="icon-box">
+		<ion-icon name="book-outline"></ion-icon>
+	</div>
+
+	<h3 class="h3">Awards</h3>
+	</div>
+
+	<ol class="timeline-list">
+    {% for item in site.data.award %}
+	<li class="timeline-item">
+
+		<h4 class="h4 timeline-item-title">{{item.name}}</h4>
+
+		<span>2015 — Present</span>
+
+		<p class="timeline-text">
+		{{item.desc}}
+		</p>
+
+	</li>
+    {% endfor %}
+	</ol>
+
 </section>
