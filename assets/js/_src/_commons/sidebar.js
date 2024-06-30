@@ -29,6 +29,4 @@ $(function() {
 
   $("#sidebar-trigger").click(sidebarUtil.toggle);
 
-  $('#mask').click(sidebarUtil.toggle);
-
 });
